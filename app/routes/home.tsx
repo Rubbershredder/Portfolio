@@ -7,6 +7,12 @@ export function meta({}: Route.MetaArgs) {
   return [
     { title: "Aman Muleva" },
     { name: "description", content: "Welcome to My Portfolio!" },
+    {
+      tagName: "link",
+      rel: "icon",
+      href: "/favicon.ico",
+      type: "image/x-icon"
+    }
   ];
 }
 
