@@ -410,35 +410,6 @@ export default function Index() {
           </div>
         </section>
         
-        {/* Education Section */}
-        <section className="mb-20">
-          <h2 className="text-2xl md:text-3xl font-bold mb-8 text-teal-600 dark:text-teal-400"># Education</h2>
-          
-          <div className="bg-slate-100 dark:bg-slate-800 rounded-lg p-6">
-            <div className="flex flex-col sm:flex-row sm:justify-between sm:items-start mb-4">
-              <div>
-                <h3 className="font-bold text-xl mb-1">Sri Venkateshwara College of Engineering</h3>
-                <p className="text-slate-600 dark:text-slate-400">Bachelor of Engineering, Information Science and Engineering</p>
-              </div>
-              <div className="mt-2 sm:mt-0 text-right">
-                <span className="text-sm text-slate-500 dark:text-slate-400">Expected May 2025</span>
-                <p className="text-sm font-medium mt-1">GPA: 8.05/10.0</p>
-              </div>
-            </div>
-            
-            <div className="mt-4">
-              <h4 className="font-medium mb-2">Relevant Coursework:</h4>
-              <div className="flex flex-wrap gap-2">
-                <span className="px-3 py-1 bg-slate-200 dark:bg-slate-700 rounded-full text-sm">Computer Networks</span>
-                <span className="px-3 py-1 bg-slate-200 dark:bg-slate-700 rounded-full text-sm">Software Engineering</span>
-                <span className="px-3 py-1 bg-slate-200 dark:bg-slate-700 rounded-full text-sm">Operating Systems</span>
-                <span className="px-3 py-1 bg-slate-200 dark:bg-slate-700 rounded-full text-sm">Algorithms</span>
-                <span className="px-3 py-1 bg-slate-200 dark:bg-slate-700 rounded-full text-sm">Artificial Intelligence</span>
-              </div>
-            </div>
-          </div>
-        </section>
-        
         {/* Contact Section */}
         <section id="contact" className="scroll-mt-24">
           <h2 className="text-2xl md:text-3xl font-bold mb-8 text-teal-600 dark:text-teal-400"># Get In Touch</h2>
