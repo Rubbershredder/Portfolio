@@ -130,10 +130,13 @@ export default function Index() {
                   <Mail size={16} className="mr-2" />
                   <a href="mailto:amanmuleva@gmail.com" className="hover:text-teal-600 dark:hover:text-teal-400">amanmuleva@gmail.com</a>
                 </div>
-                <div className="flex items-center">
+                <a 
+                  href="https://drive.google.com/file/d/169S-AqWHRhgmKj69guCOAW_HWojM_OEC/view?usp=sharing" 
+                  className="flex items-center px-4 py-2 bg-teal-600 hover:bg-teal-700 text-white rounded-md transition-colors shadow-sm"
+                >
                   <FileText size={16} className="mr-2" />
-                  <a href="https://drive.google.com/file/d/169S-AqWHRhgmKj69guCOAW_HWojM_OEC/view?usp=sharing" className="hover:text-teal-600 dark:hover:text-teal-400">Download Resume</a>
-                </div>
+                  Download Resume
+                </a>
               </div>
               
               <div className="flex space-x-4 mt-4">
@@ -156,6 +159,7 @@ export default function Index() {
             </div>
           </div>
         </section>
+
         
         {/* About Section */}
         <section id="about" className="mb-20 scroll-mt-24">
@@ -256,6 +260,10 @@ export default function Index() {
                 
                 <a href="https://github.com/suraj0-11/codesense.git" className="flex items-center text-teal-600 dark:text-teal-400 text-sm hover:underline">
                   View on GitHub
+                  <ExternalLink size={14} className="ml-1" />
+                </a>
+                <a href="https://codesense-suraj0-11s-projects.vercel.app/" className="flex items-center text-teal-600 dark:text-teal-400 text-sm hover:underline">
+                  Website
                   <ExternalLink size={14} className="ml-1" />
                 </a>
               </div>
