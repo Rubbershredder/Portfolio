@@ -131,7 +131,7 @@ export default function Index() {
                   <a href="mailto:amanmuleva@gmail.com" className="hover:text-teal-600 dark:hover:text-teal-400">amanmuleva@gmail.com</a>
                 </div>
                 <a 
-                  href="https://drive.google.com/file/d/169S-AqWHRhgmKj69guCOAW_HWojM_OEC/view?usp=sharing" 
+                  href="https://drive.google.com/file/d/1FPaajFDcLdthsm3U_V-_whNx7Y8Tf25D/view?usp=sharing" 
                   className="flex items-center px-4 py-2 bg-teal-600 hover:bg-teal-700 text-white rounded-md transition-colors shadow-sm"
                 >
                   <FileText size={16} className="mr-2" />
